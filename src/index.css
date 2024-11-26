@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media (max-width: 871px) {
+    .fimage {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1248px) {
+    .rs {
+        width: 700px;
+    }
+}
+@media (max-width: 589px) {
+    .mrs {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width: 871px) {
+    .mrsimg {
+        width: 700px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .aicon {
+        width: 48%;
+    } 
+}
+
+@media (max-width : 864px) {
+    .aicon {
+        width: 1000px;
+    }
+}
